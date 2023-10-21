@@ -1,0 +1,72 @@
+.privacy-policy {
+  margin: auto;
+  font-family: "DM Sans";
+  max-width: 1920px;
+}
+
+.text {
+  color: white;
+  margin: 3rem 10rem;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 3rem;
+  /* margin-bottom: 0; */
+}
+
+.text p {
+  /* margin-top: 40px; */
+  font-size: 1.1rem;
+}
+
+.content {
+  margin: 17% 5% 0 5%;
+}
+
+.content a {
+  color: black;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  /* text-transform: capitalize; */
+}
+
+.content p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.content span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1025px) {
+  .text {
+    margin: 5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .text {
+    margin: 5rem 4rem !important;
+  }
+
+  .text h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .text {
+    margin: 3rem 1rem !important;
+  }
+
+  .content {
+    margin: 17% 3% 0 3%;
+  }
+}

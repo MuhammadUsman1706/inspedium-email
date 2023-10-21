@@ -1,0 +1,19 @@
+.create-modal-form {
+  font-family: "DM Sans";
+  padding: 0.5rem 1rem;
+  max-width: 100%;
+}
+
+.create-modal-form label {
+  display: block;
+  margin-top: 1rem;
+  color: #00505d;
+}
+
+.create-modal-form > div:first-of-type {
+  width: 100% !important;
+}
+
+.submit-buttons {
+  margin-top: 1rem;
+}

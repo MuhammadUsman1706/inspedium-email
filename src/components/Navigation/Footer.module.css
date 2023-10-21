@@ -1,0 +1,67 @@
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Source+Sans+Pro&display=swap"); */
+
+.footer {
+  background: linear-gradient(178.89deg, #52bd94 0.95%, #00505d 101.59%);
+  margin-top: 4rem;
+  padding: 3rem 6rem;
+  color: white;
+  font-family: "DM Sans";
+}
+
+.footer-header {
+  display: grid;
+  grid-template-columns: 40% repeat(3, auto);
+  column-gap: 40px;
+}
+
+.footer-header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-header li {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.footer-header li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer img {
+  width: 50%;
+}
+
+.copyright {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+  .footer {
+    background: linear-gradient(178.89deg, #52bd94 0.95%, #00505d 101.59%);
+    margin-top: 4rem;
+    padding: 3rem 2rem;
+    color: white;
+  }
+
+  .footer-header {
+    grid-template-columns: auto;
+  }
+
+  .footer-header > div:first-child {
+    grid-column: 1 / span 2;
+  }
+
+  .support,
+  .company {
+    grid-row: 3;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .footer img {
+    width: 70%;
+  }
+}

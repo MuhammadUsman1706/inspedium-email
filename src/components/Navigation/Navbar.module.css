@@ -1,0 +1,169 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap"); */
+
+.navbar {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: "DM Sans";
+  /* background-image: url("../../assets/images/background-image.png");
+  background-size: cover; */
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  width: 24px;
+}
+
+.dropdown-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  align-items: center;
+}
+
+.dropdown-logo img {
+  width: 35%;
+}
+
+/* #drawer {
+  border-radius: 10px;
+} */
+
+#dropdown-box {
+  background: linear-gradient(178.89deg, #52bd94 0.95%, #00505d 101.59%);
+  border: 1px solid #00505d;
+  padding-right: 5px;
+  /* border-radius: 10px; */
+}
+
+#dropdown-box a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* text-align: right; */
+}
+
+.dropdown-buttons {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Global */
+
+.color-button {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #00505d;
+  color: white;
+  font-size: 18px;
+  padding: 0.7rem 1.5rem;
+  margin-left: 1rem;
+  font-family: "DM Sans";
+}
+
+.color-inverse-button {
+  border-radius: 8px;
+  color: #00505d;
+  background-color: white;
+  font-size: 18px;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  margin-left: 1rem;
+  font-family: "DM Sans";
+}
+
+@media screen and (max-width: 1513px) {
+  .navbar {
+    padding: 2rem;
+  }
+
+  .links a {
+    font-size: large;
+    margin: 0 1.5rem;
+  }
+
+  .auth button {
+    font-size: large;
+    /* padding: 0.5rem; */
+  }
+}
+
+@media screen and (max-width: 1382px) {
+  .links a {
+    margin: 0 1rem;
+  }
+
+  .auth button {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1129px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1129px) {
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .auth {
+    display: none;
+  }
+
+  .color-button,
+  .color-inverse-button {
+    margin-left: 1rem;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .dropdown-logo img {
+    width: 45%;
+  }
+
+  .logo {
+    width: 45%;
+  }
+}

@@ -1,0 +1,16 @@
+.add-card-modal {
+  font-family: "DM Sans";
+  padding: 1rem 1rem;
+  max-width: 100%;
+}
+
+.add-card-modal-form button {
+  margin-top: 1rem;
+}
+
+.add-card-modal-form label {
+  margin-bottom: 0.25rem;
+  font-size: 0.93rem;
+  font-weight: 400;
+  color: #30313d;
+}

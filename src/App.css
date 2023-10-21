@@ -1,0 +1,174 @@
+button {
+  cursor: pointer;
+}
+
+.background-image {
+  position: absolute;
+  max-width: 1920px;
+  overflow: hidden !important;
+  width: 100%;
+  z-index: -1;
+}
+
+.background-image img {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.halfscreen {
+  min-height: 70vh !important;
+  max-height: 80vh !important;
+}
+
+/* FAQ Component for landing page */
+
+.faq-row-wrapper {
+  background-color: transparent !important;
+}
+
+.faq-body {
+  padding: 0 10rem;
+}
+
+.faq-body .faq-row {
+  padding: 1rem !important;
+  border: 1.6455px solid rgba(82, 189, 148, 0.3) !important;
+  border-radius: 16.455px;
+  margin-bottom: 2rem;
+}
+
+.row-title-text {
+  color: #00505d;
+  font-weight: bold;
+}
+
+/* PhoneInput */
+
+.PhoneInput {
+  flex-direction: row-reverse;
+  column-gap: 20px;
+}
+
+.PhoneInput input {
+  font-size: 1rem;
+  padding: 0.8rem 1rem !important;
+  border: 1px rgba(0, 0, 0, 0.23) solid;
+  border-radius: 4px;
+}
+
+/* MUI INPUT */
+#domainName.MuiOutlinedInput-input {
+  padding: 16.5px 30px 16.5px 14px !important;
+}
+
+@media screen and (min-width: 1600px) {
+  .halfscreen {
+    max-height: 40vh !important;
+  }
+}
+
+/* @media screen and (max-height: 700px) {
+  .halfscreen {
+    min-height: 40vh !important;
+  }
+} */
+
+@media screen and (max-width: 770px) {
+  .faq-body {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .background-image img {
+    width: 100%;
+    min-height: 80vh;
+    width: 2000px !important;
+  }
+
+  .halfscreen {
+    width: 2000px !important;
+    height: 70vh;
+    /* min-height: 70vh !important;
+    max-height: 70vh !important; */
+  }
+
+  #about-screen {
+    height: 1000px !important;
+    max-height: 1000px !important;
+  }
+
+  .faq-body {
+    padding: 0 2rem;
+  }
+}
+
+/* Global CSS */
+.color-button {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #00505d;
+  color: white;
+  font-size: 18px;
+  padding: 0.7rem 1.5rem;
+  font-family: "DM Sans";
+  text-decoration: none;
+}
+
+.color-inverse-button {
+  border-radius: 8px;
+  color: #00505d;
+  background-color: white;
+  font-size: 18px;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  margin-left: 1rem;
+  font-family: "DM Sans";
+  border: 1px solid #00505d;
+  text-decoration: none;
+}
+
+/* MUI Global Styling */
+
+.MuiInputBase-input {
+  padding: 0.8rem 1rem !important;
+}
+
+.MuiInputLabel-outlined {
+  top: -3px !important;
+}
+
+.MuiInputLabel-shrink {
+  top: 0 !important;
+}
+
+.MuiInputAdornment-root {
+  color: #00505d !important;
+}
+
+.MuiInputAdornment-root > p {
+  color: #00505d !important;
+}
+
+.MuiInputAdornment-positionEnd {
+  width: min-content !important;
+}
+
+/* .ElementsApp {
+  font-size: 99px !important;
+}
+
+.StripeElement input,
+.StripeElement--empty input {
+  padding: 20px !important;
+  font-size: 200px !important;
+  background-color: black !important;
+} */
+
+.supportWrapper {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  padding: 1rem;
+  /* min-height: 300px; */
+  /* margin: 3rem 0; */
+}

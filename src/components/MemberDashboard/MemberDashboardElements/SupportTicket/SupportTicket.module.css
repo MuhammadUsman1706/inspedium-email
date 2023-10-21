@@ -1,0 +1,60 @@
+.support-ticket {
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(82, 189, 148, 0.3);
+  border-radius: 8px;
+  row-gap: 2rem;
+  height: 100%;
+  max-width: 95%;
+  font-family: "DM Sans";
+  margin-bottom: 1rem;
+}
+
+.support-ticket h3 {
+  color: #00505d;
+  margin-bottom: 0;
+}
+.support-ticket hr {
+  margin-top: 0.5rem;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ticket-form label {
+  display: block;
+  font-family: "DM Sans";
+  color: #00505d;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.upload-file {
+  display: flex !important;
+  justify-content: center;
+  color: #00505d !important;
+  align-self: flex-start;
+  margin-top: 0.5rem !important;
+  padding-left: 0 !important;
+}
+
+#submit-button {
+  margin-top: 2rem;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+  .support-ticket {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .submit-button {
+    align-self: stretch;
+  }
+}

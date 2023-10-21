@@ -1,0 +1,179 @@
+.about-us {
+  margin: auto;
+  font-family: "DM Sans";
+  max-width: 1920px;
+}
+
+.text {
+  color: white;
+  margin: 3rem 10rem;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.text p {
+  /* margin-top: 40px; */
+  font-size: 1.1rem;
+}
+
+.hover-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+}
+
+.hover-card {
+  border: 1px solid #52bd944d;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  max-width: 27%;
+  text-align: center;
+  background-color: #ffffff;
+  transition: transform 0.2s;
+}
+
+.hover-card > h2 {
+  margin-bottom: 1.5rem;
+}
+
+.hover-card:hover,
+.hover-card.active {
+  /* width: 30%; */
+  transform: scale(1.1);
+  background-color: rgba(82, 189, 148, 0.1);
+}
+
+.about-us-cards {
+  margin-top: 15%;
+}
+
+.grids {
+  margin: 5% 10%;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 50% 35%;
+  /* column-gap: 10%; */
+  justify-content: space-between;
+}
+
+.grid-1 img {
+  width: 100%;
+}
+
+.grid-2 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 35% 50%;
+  justify-content: space-between;
+}
+
+.grid-2 img {
+  width: 100%;
+}
+
+/* Global */
+.main-heading {
+  margin-top: 5rem;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.para-text {
+  color: #7d7d7d;
+}
+
+.paw-pattern-right,
+.paw-pattern-left {
+  position: relative;
+}
+
+.paw-pattern-right img {
+  position: absolute;
+  width: 60%;
+  top: -800px;
+  right: 0;
+  z-index: -1;
+  max-height: 1000px;
+}
+
+.paw-pattern-left img {
+  position: absolute;
+  width: 50%;
+  top: -500px;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1025px) {
+  .text {
+    margin: 5rem 2rem;
+  }
+
+  .hover-cards {
+    padding: 1rem 1rem;
+  }
+
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* column-gap: 10%; */
+    justify-content: space-between;
+  }
+
+  .grid-2 {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .grid-1,
+  .grid-2 {
+    grid-template-columns: 100%;
+  }
+
+  .grid-2 > div:nth-child(2) {
+    order: -1;
+  }
+
+  .text {
+    margin: 5rem 4rem !important;
+  }
+
+  .text h1 {
+    font-size: 2rem;
+  }
+
+  .hover-cards {
+    padding: 1rem 1rem;
+    justify-content: space-around;
+    row-gap: 50px;
+  }
+
+  .hover-card {
+    max-width: 40%;
+  }
+
+  .pricing-cards {
+    margin: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .text {
+    margin: 3rem 1rem !important;
+  }
+
+  .hover-card {
+    max-width: 90%;
+  }
+}

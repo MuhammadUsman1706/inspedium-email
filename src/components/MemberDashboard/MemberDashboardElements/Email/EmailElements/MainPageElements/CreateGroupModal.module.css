@@ -1,0 +1,27 @@
+.create-modal-form {
+  font-family: "DM Sans";
+  padding: 0.5rem 1rem;
+  max-width: 100%;
+  display: flex;
+  margin: 1rem 0;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+/* .create-modal-form fieldset {
+  border-color: #00505d !important;
+} */
+
+.create-modal-form label {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: #00505d !important;
+}
+
+.create-modal-form > div:first-of-type {
+  width: 100% !important;
+}
+
+.submit-buttons {
+  margin-top: 1rem;
+}

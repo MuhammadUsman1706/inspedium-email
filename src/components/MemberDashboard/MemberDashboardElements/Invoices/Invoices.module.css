@@ -1,0 +1,72 @@
+.invoices {
+  font-family: "DM Sans";
+  max-width: 95%;
+}
+
+.invoices h2 {
+  color: #00505d;
+}
+
+.summary {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(82, 189, 148, 0.3);
+  border-radius: 8px;
+}
+
+.summary-details p {
+  color: #7d7d7d;
+}
+
+.summary-details p span {
+  font-weight: bold;
+  color: black;
+}
+
+.domain-table {
+  margin-top: 1rem;
+  border: 1px solid rgba(82, 189, 148, 0.3);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.domain-table table {
+  width: 100%;
+  font-family: "DM Sans";
+  border-collapse: collapse;
+
+  /* table-layout: fixed; */
+  /* border-spacing: 1rem; */
+}
+
+.domain-table tr th,
+.domain-table tr td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.domain-table thead {
+  background: rgba(82, 189, 148, 0.07);
+  color: #00505d;
+}
+
+.table-text {
+  color: #7d7d7d;
+}
+
+.icons {
+  color: #00505d;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .invoices {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .domain-table {
+    overflow-x: scroll;
+  }
+}
